@@ -1,0 +1,198 @@
+<div class="wrapper">
+    <nav class="admin-header navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-left navbar-brand-wrapper">
+            <a class="navbar-brand brand-logo" href="/" *ngIf="!auth.isUserLoggedIn()">
+                {{ systemName}}
+            </a>
+        </div>
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+                <a id="button-toggle" class="button-toggle-nav inline-block ml-20 pull-left" href="javascript:void(0);"><i class="zmdi zmdi-menu ti-align-right"></i></a>
+            </li>
+            <li class="nav-item">
+              <div class="search">
+                <a class="search-btn not_click" href="javascript:void(0);"></a>
+                <div class="search-box not-click">
+                  <input type="text" class="not-click form-control" placeholder="Search" value="" name="search">
+                  <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
+                </div>
+              </div>
+            </li>
+        </ul>
+        <div class="nav-item ">
+            <a class="button gray icon" href="#"> ADD NEW ENQUIRY </a>
+        </div>
+        <!-- top bar right -->
+        <ul class="nav navbar-nav ml-auto" *ngIf="!auth.isUserLoggedIn()">
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    <i class="ti-bell"></i>
+                    <span class="badge badge-danger notification-status" *ngIf="unreadNotifications > 0">&nbsp;</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-big dropdown-notifications">
+                    <div class="dropdown-header notifications">
+                        <strong>Notifications</strong>
+                        <span class="badge badge-pill badge-warning">{{ unreadNotifications }}</span>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div *ngIf="notifications.length > 0" style="max-height: 300px; overflow:auto;">
+                      <div class="dropdown-item notification-item" *ngFor="let notif of notifications">
+                        {{ notif.title }}<br/>
+                          <small [innerHTML]="notif.content"></small>
+                          <a *ngIf="!notif.read" href="javascript:void(0)" class="text-success d-block" title="Mark As Read" (click)="markNotificationRead(notif)"><i class="fa fa-check"></i></a>
+                        <small class="float-right text-muted time">{{ notif.dateTime| date: 'dd/MM/yyyy HH:mm' }}</small>
+                      </div>
+                    </div>
+                    <div class="p-10">
+                        <div class="alert alert-info p-10" *ngIf="notifications.length == 0">
+                            You Have No Notifications
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link top-nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="true">
+                    <i class=" ti-view-grid"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-big" id="topNav">
+                    <div class="dropdown-header">
+                        <strong>Quick Links</strong>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="nav-grid">
+
+
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown mr-30">
+                <a class="nav-link nav-pill user-avatar" data-toggle="dropdown" href="#" role="button"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                    <img src="assets/images/person-male.jpg" alt="">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-header">
+                        <div class="media">
+                            <div class="media-body">
+                                <!-- <h5 class="mt-0 mb-0">{{ auth.getLoggedInUser().displayName }}</h5>
+                                <span>{{ auth.getLoggedInUser().email }}</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="/profile">
+                        <i class="text-warning ti-user"></i>
+                        Edit Profile
+                    </a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" (click)="auth.logOut()">
+                        <i class="text-danger ti-unlock"></i>
+                        Logout
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="side-menu-fixed" *ngIf="!auth.isUserLoggedIn()">
+                <div class="scrollbar side-menu-bg">
+                    <ul class="nav navbar-nav side-menu" id="sidebarnav">
+                        <!-- menu item Dashboard-->
+                        <li>
+                            <a routerLink="">
+                                <div class="pull-left">
+                                    <i class="ti-home"></i>
+                                    <span class="right-nav-text">Dashboard</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="contacts">
+                                <div class="pull-left">
+                                    <i class="ti-file"></i>
+                                    <span class="right-nav-text">Contacts</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="enquiries">
+                                <div class="pull-left">
+                                    <i class="ti-light-bulb"></i>
+                                    <span class="right-nav-text">Enquiries</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="bookings">
+                                <div class="pull-left">
+                                    <i class="fa fa-folder"></i>
+                                    <span class="right-nav-text">Bookings</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="groups">
+                                <div class="pull-left">
+                                    <i class="ti-files"></i>
+                                    <span class="right-nav-text">Groups</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="suppliers">
+                                <div class="pull-left">
+                                    <i class="fa fa-truck"></i>
+                                    <span class="right-nav-text">Suppliers</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="/settings">
+                                <div class="pull-left">
+                                    <i class="fa fa-cog"></i>
+                                    <span class="right-nav-text">Settings</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <ng2-slim-loading-bar color="blue"></ng2-slim-loading-bar>
+                <router-outlet></router-outlet>
+                <footer class="p-4 m-1">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="text-center text-md-left">
+                            <p class="mb-0"> &copy; Copyright <span id="copyright">{{currentDate}}</span>. <a href="#"> Webmin </a> All Rights Reserved. </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="text-center text-md-right">
+                          <li class="list-inline-item"><a href="#">Terms & Conditions </a> </li>
+                          <li class="list-inline-item"><a href="#">API Use Policy </a> </li>
+                          <li class="list-inline-item"><a href="#">Privacy Policy </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                </footer>
+            </div>        
+        </div>
+    </div>
+</div>
+<ngx-ui-loader [fgsColor]="spinnerColor"></ngx-ui-loader>

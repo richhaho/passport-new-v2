@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card mb-30">
+      <div class="card-body">
+
+        <form [formGroup]="loginForm" (submit)="submitLogin()">
+          <div class="form-group">
+            <input type="text" placeholder="Username"  class="form-control {{ username.invalid && (username.dirty || username.touched) ? 'is-invalid' : '' }}" formControlName="username"/>
+            <div class="invalid-feedback" *ngIf="username.invalid && (username.dirty || username.touched)">
+              A Valid Username Is Required.
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control {{ password.invalid && (password.dirty || password.touched) ? 'is-invalid' : '' }}" formControlName="password"/>
+            <div class="invalid-feedback" *ngIf="password.invalid && (password.dirty || password.touched)">
+              Password Is Required.
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block" [disabled]="!loginForm.valid">Log In</button>
+          </div>
+        </form>
+        <div class="text-center">
+          <p class="text-secondary"><a href="/forgotpassword">Forgot Password?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

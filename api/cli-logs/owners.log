@@ -1,0 +1,167 @@
+<pre>stdClass Object
+(
+    [Name] => Charlotte  Winter
+    [TeamAccessType] => 
+    [Description] => 
+    [GroupType] => stdClass Object
+        (
+            [Id] => 2066
+            [Name] => Individual
+            [SystemName] => Individual
+        )
+
+    [GroupIcon] => 
+    [GroupBackgroundImageUrl] => 
+    [Notes] => test
+    [Members] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [Person] => stdClass Object
+                        (
+                            [Gender] => stdClass Object
+                                (
+                                    [Id] => 2016
+                                    [Name] => Female
+                                    [SystemName] => Female
+                                )
+
+                            [Title] => Mrs
+                            [FirstName] => Charlotte 
+                            [LastName] => Winter
+                            [ContactName] => Mrs Charlotte Winter
+                            [PrimaryTelephone] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1895
+                                            [Name] => Mobile
+                                            [SystemName] => Mobile
+                                        )
+
+                                    [Value] => 078 4117 5258
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 9505204
+                                )
+
+                            [PrimaryEmail] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1892
+                                            [Name] => Email
+                                            [SystemName] => Email
+                                        )
+
+                                    [Value] => CharlotteWinter@armyspy.com
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 9505203
+                                )
+
+                            [Addresses] => Array
+                                (
+                                )
+
+                            [ContactItems] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [Type] => stdClass Object
+                                                (
+                                                    [Id] => 1892
+                                                    [Name] => Email
+                                                    [SystemName] => Email
+                                                )
+
+                                            [Value] => CharlotteWinter@armyspy.com
+                                            [Notes] => 
+                                            [ContactOrder] => 0
+                                            [AllowContact] => 1
+                                            [MarketingContactStatus] => stdClass Object
+                                                (
+                                                    [Id] => 952202
+                                                    [Name] => Unsubscribed Marketing
+                                                    [SystemName] => UnsubscribedMarketing
+                                                )
+
+                                            [Name] => 
+                                            [Id] => 9505203
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [Type] => stdClass Object
+                                                (
+                                                    [Id] => 1895
+                                                    [Name] => Mobile
+                                                    [SystemName] => Mobile
+                                                )
+
+                                            [Value] => 078 4117 5258
+                                            [Notes] => 
+                                            [ContactOrder] => 0
+                                            [AllowContact] => 1
+                                            [MarketingContactStatus] => stdClass Object
+                                                (
+                                                    [Id] => 952202
+                                                    [Name] => Unsubscribed Marketing
+                                                    [SystemName] => UnsubscribedMarketing
+                                                )
+
+                                            [Name] => 
+                                            [Id] => 9505204
+                                        )
+
+                                )
+
+                            [MarketingPreferences] => Array
+                                (
+                                )
+
+                            [Id] => 4811307
+                        )
+
+                    [RelationshipType] => stdClass Object
+                        (
+                            [Id] => 2256
+                            [Name] => Primary Group Member
+                            [SystemName] => PrimaryGroupMember
+                        )
+
+                    [SystemStatus] => stdClass Object
+                        (
+                            [Id] => 1801
+                            [Name] => Active
+                            [SystemName] => Active
+                        )
+
+                    [Order] => 0
+                    [Id] => 4811307
+                )
+
+        )
+
+    [OwningTeamId] => 36401
+    [BranchId] => 31901
+    [Id] => 4228107
+)

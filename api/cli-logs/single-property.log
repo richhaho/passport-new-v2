@@ -1,0 +1,424 @@
+<pre>stdClass Object
+(
+    [Address] => stdClass Object
+        (
+            [Location] => 
+            [AddressSource] => stdClass Object
+                (
+                    [Id] => 1852
+                    [Name] => Custom
+                    [SystemName] => Custom
+                )
+
+            [SourceId] => 39ce68e5-165c-430e-97ad-8948fbd7ef56
+            [OrganizationName] => 
+            [Number] => 92
+            [BuildingName] => 
+            [Street] => West Street 
+            [Town] => Chester
+            [Locality] => 
+            [County] => 
+            [Postcode] => CH2 3PT
+            [CreatedDate] => 2016-10-20T13:44:29Z
+            [CreatedBy] => stdClass Object
+                (
+                    [Initials] => 
+                    [ContactName] => System Account
+                    [Gender] => 
+                    [Title] => 
+                    [FirstName] => System Account
+                    [LastName] => 
+                    [PrimaryTelephone] => 
+                    [PrimaryEmail] => 
+                    [JobTitle] => 
+                    [Id] => 37201
+                )
+
+            [Id] => 2461602
+        )
+
+    [Keys] => Array
+        (
+        )
+
+    [Alarms] => Array
+        (
+        )
+
+    [Roles] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [GroupId] => 3368004
+                    [DefaultPicture] => stdClass Object
+                        (
+                            [Url] => https://docs-uat.rezi.cloud/2689304.JPG?v=0000000004f10c61
+                            [RequiresAuthentication] => 
+                            [ExpiryDate] => 
+                            [FileStream] => 
+                            [Tags] => Array
+                                (
+                                )
+
+                            [DocumentType] => stdClass Object
+                                (
+                                    [Id] => 1943
+                                    [Name] => Image
+                                    [SystemName] => Image
+                                )
+
+                            [DocumentSubType] => stdClass Object
+                                (
+                                    [Id] => 1925
+                                    [Name] => Photo
+                                    [SystemName] => Photo
+                                )
+
+                            [FileName] => 147696453814769644921812
+                            [ContentType] => image/jpeg
+                            [FileExtension] => .JPG
+                            [Description] => 
+                            [FileSize] => 
+                            [CreatedDate] => 2016-10-20T13:44:31Z
+                            [CreatedBy] => stdClass Object
+                                (
+                                    [Initials] => 
+                                    [ContactName] => System Account
+                                    [Gender] => 
+                                    [Title] => 
+                                    [FirstName] => System Account
+                                    [LastName] => 
+                                    [PrimaryTelephone] => 
+                                    [PrimaryEmail] => 
+                                    [JobTitle] => 
+                                    [Id] => 37201
+                                )
+
+                            [Id] => 2689304
+                        )
+
+                    [PropertyId] => 528302
+                    [AgencyType] => 
+                    [AgencyPeriod] => 
+                    [ContractEndDate] => 0001-01-01T00:00:00Z
+                    [Flags] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [Id] => 2093
+                                    [Name] => On Market
+                                    [SystemName] => OnMarket
+                                )
+
+                        )
+
+                    [Price] => stdClass Object
+                        (
+                            [PriceValue] => 120000
+                            [CurrencyCode] => GBP
+                            [PriceText] => 
+                            [PriceType] => 
+                            [PriceQualifierType] => 
+                            [Id] => 1046301
+                        )
+
+                    [Fees] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [Name] => 
+                                    [FeeValueType] => 
+                                    [FeeCategoryType] => stdClass Object
+                                        (
+                                            [Id] => 9827
+                                            [Name] => Commission
+                                            [SystemName] => Commission
+                                        )
+
+                                    [FeeChargeType] => stdClass Object
+                                        (
+                                            [Id] => 9829
+                                            [Name] => Applicable
+                                            [SystemName] => Applicable
+                                        )
+
+                                    [FeeLiabilityType] => stdClass Object
+                                        (
+                                            [Id] => 9824
+                                            [Name] => Vendor
+                                            [SystemName] => Vendor
+                                        )
+
+                                    [FeeFrequency] => stdClass Object
+                                        (
+                                            [Id] => 2201
+                                            [Name] => Flat Price
+                                            [SystemName] => FlatPrice
+                                        )
+
+                                    [FeePercentageOfType] => 
+                                    [VatRateType] => stdClass Object
+                                        (
+                                            [Id] => 1014550
+                                            [Name] => No VAT
+                                            [SystemName] => NoVAT
+                                        )
+
+                                    [ApplyTax] => 
+                                    [VatValue] => 0
+                                    [DefaultValue] => 0
+                                    [ScaleableFees] => Array
+                                        (
+                                        )
+
+                                    [Notes] => 
+                                    [TransactionType] => 
+                                    [IsDefault] => 
+                                    [CalculatedValue] => 0
+                                    [AutoApply] => 
+                                    [CreatedDate] => 2017-06-19T12:45:28Z
+                                    [CreatedBy] => stdClass Object
+                                        (
+                                            [Initials] => 
+                                            [ContactName] => Mr Joshua Davies
+                                            [Gender] => stdClass Object
+                                                (
+                                                    [Id] => 2015
+                                                    [Name] => Male
+                                                    [SystemName] => Male
+                                                )
+
+                                            [Title] => Mr
+                                            [FirstName] => Joshua
+                                            [LastName] => Davies
+                                            [PrimaryTelephone] => stdClass Object
+                                                (
+                                                    [Type] => stdClass Object
+                                                        (
+                                                            [Id] => 1895
+                                                            [Name] => Mobile
+                                                            [SystemName] => Mobile
+                                                        )
+
+                                                    [Value] => 07891242647
+                                                    [Notes] => 
+                                                    [ContactOrder] => 0
+                                                    [AllowContact] => 1
+                                                    [MarketingContactStatus] => stdClass Object
+                                                        (
+                                                            [Id] => 952202
+                                                            [Name] => Unsubscribed Marketing
+                                                            [SystemName] => UnsubscribedMarketing
+                                                        )
+
+                                                    [Name] => 
+                                                    [Id] => 7322805
+                                                )
+
+                                            [PrimaryEmail] => stdClass Object
+                                                (
+                                                    [Type] => stdClass Object
+                                                        (
+                                                            [Id] => 1892
+                                                            [Name] => Email
+                                                            [SystemName] => Email
+                                                        )
+
+                                                    [Value] => j.davies@dezrez.com
+                                                    [Notes] => 
+                                                    [ContactOrder] => 1
+                                                    [AllowContact] => 1
+                                                    [MarketingContactStatus] => stdClass Object
+                                                        (
+                                                            [Id] => 952202
+                                                            [Name] => Unsubscribed Marketing
+                                                            [SystemName] => UnsubscribedMarketing
+                                                        )
+
+                                                    [Name] => 
+                                                    [Id] => 7322901
+                                                )
+
+                                            [JobTitle] => 
+                                            [Id] => 3696501
+                                        )
+
+                                    [Id] => 602201
+                                )
+
+                        )
+
+                    [OwningTeam] => stdClass Object
+                        (
+                            [Name] => Joshua Davies
+                            [Description] => 
+                            [Id] => 3234501
+                        )
+
+                    [Branch] => stdClass Object
+                        (
+                            [Name] => Putney Central.
+                            [LegalEntityId] => 201
+                            [VAT] => 
+                            [Id] => 31901
+                        )
+
+                    [ValidEpcInPlace] => 
+                    [ProofOfIdReceived] => 
+                    [ProofOfOwnershipReceived] => 
+                    [ClosingDate] => 0001-01-01T00:00:00Z
+                    [MarketingStartDate] => 0001-01-01T00:00:00Z
+                    [OwningTeamId] => 3234501
+                    [BranchId] => 31901
+                    [Name] => Looking to sell (92 West Street , CH2 3PT)
+                    [TeamAccessType] => 
+                    [RoleType] => stdClass Object
+                        (
+                            [Id] => 2264
+                            [Name] => Selling
+                            [SystemName] => Selling
+                        )
+
+                    [RoleStatus] => stdClass Object
+                        (
+                            [Id] => 2102
+                            [Name] => Instruction to Sell
+                            [SystemName] => InstructionToSell
+                        )
+
+                    [CustomFields] => Array
+                        (
+                        )
+
+                    [CreatedDate] => 2017-06-19T12:45:28Z
+                    [CreatedBy] => stdClass Object
+                        (
+                            [Initials] => 
+                            [ContactName] => Mr Joshua Davies
+                            [Gender] => stdClass Object
+                                (
+                                    [Id] => 2015
+                                    [Name] => Male
+                                    [SystemName] => Male
+                                )
+
+                            [Title] => Mr
+                            [FirstName] => Joshua
+                            [LastName] => Davies
+                            [PrimaryTelephone] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1895
+                                            [Name] => Mobile
+                                            [SystemName] => Mobile
+                                        )
+
+                                    [Value] => 07891242647
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 7322805
+                                )
+
+                            [PrimaryEmail] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1892
+                                            [Name] => Email
+                                            [SystemName] => Email
+                                        )
+
+                                    [Value] => j.davies@dezrez.com
+                                    [Notes] => 
+                                    [ContactOrder] => 1
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 7322901
+                                )
+
+                            [JobTitle] => 
+                            [Id] => 3696501
+                        )
+
+                    [Id] => 10448401
+                )
+
+            [1] => stdClass Object
+                (
+                    [PropertyId] => 528302
+                    [GroupId] => 3368004
+                    [FinancialStatus] => 
+                    [Origin] => 
+                    [Grade] => 
+                    [OwningTeamId] => 0
+                    [BranchId] => 31901
+                    [Name] => Ellis bradshaw owns
+                    [TeamAccessType] => 
+                    [RoleType] => stdClass Object
+                        (
+                            [Id] => 2268
+                            [Name] => Owns
+                            [SystemName] => Owns
+                        )
+
+                    [RoleStatus] => stdClass Object
+                        (
+                            [Id] => 2263
+                            [Name] => Active
+                            [SystemName] => Active
+                        )
+
+                    [CustomFields] => Array
+                        (
+                        )
+
+                    [CreatedDate] => 2016-10-20T13:44:29Z
+                    [CreatedBy] => stdClass Object
+                        (
+                            [Initials] => 
+                            [ContactName] => System Account
+                            [Gender] => 
+                            [Title] => 
+                            [FirstName] => System Account
+                            [LastName] => 
+                            [PrimaryTelephone] => 
+                            [PrimaryEmail] => 
+                            [JobTitle] => 
+                            [Id] => 37201
+                        )
+
+                    [Id] => 6209702
+                )
+
+        )
+
+    [InactiveRoleIds] => Array
+        (
+            [0] => 6209703
+        )
+
+    [SpecialArrangements] => Array
+        (
+        )
+
+    [SystemStatusName] => Active
+    [Certificates] => 
+    [Id] => 528302
+)

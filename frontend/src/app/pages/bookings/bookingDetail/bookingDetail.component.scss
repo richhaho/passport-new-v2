@@ -1,0 +1,29 @@
+.buttonset-in-enquires{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.align-top{
+    display: flex;
+    justify-content: space-between;
+}
+.convert-icon{
+    color: green;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.archive-icon{
+    color: grey;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.text-grey{
+    color:lightgray;
+}

@@ -1,0 +1,43 @@
+.main-area{
+    margin-left: 0px !important;
+}
+.dash-analys-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 170px;
+}
+.dash-analys-item2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 120px;
+    h3{
+        text-align: center;
+    }
+}
+.dash-analys-title{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.social-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .social-card-grid{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        color:black;
+        .socicard-in-ptag1{
+            font-size: 1.5rem;
+            padding-top: 10px;
+        }
+        .socicard-in-ptag2{
+            font-size: 1rem;
+        }
+    }
+}
+.first-th-sets th{
+    text-align: center;
+}

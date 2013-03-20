@@ -1,0 +1,218 @@
+<div class="page-title">
+    <div class="row">
+        <div class="col-sm-6">
+            <h4 class="mb-0"> Bookings</h4>
+        </div>
+        <div class="col-sm-6">
+            <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
+                <li class="breadcrumb-item"><a href="/" class="default-color">Home</a></li>
+                <li class="breadcrumb-item active">Bookings</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <div class="clearfix">
+                    <form action="" method ="post">
+                        <div class="row">
+                            <div class="col-xl-6  col-lg-12 col-md-12 buttonset-in-enquires">
+                                <div>
+                                    <a class="button button-border black icon " href="#"> LAST 7 DAYS </a>
+                                </div>
+                                <div>
+                                    <a class="button button-border black icon " href="#">MONTH TO DATE </a>
+                                </div>
+                                <div>
+                                    <a class="button button-border black icon " href="#">LAST MONTH</a>
+                                </div>
+                                <div>
+                                    <a class="button button-border black icon " href="#">YEAR TO DATE</a>
+                                </div>
+                                <div>
+                                    <a class="button button-border black icon " href="#">LAST YEAR</a>
+                                </div>
+                            </div>
+                            <div class="datepicker-form col-xl-5 col-lg-12 col-md-12">
+                                <div class="input-group" data-date="23/11/2018" data-date-format="mm/dd/yyyy">
+                                    <span class="input-group-addon">From</span>
+                                    <input type="text" class="form-control range-to" name="from" id="fromDate" value="">
+                                    <span class="input-group-addon">To</span>
+                                    <input class="form-control range-to" type="text" name="to" id="toDate" value="">
+                                    <input type="submit" class="button button-border small" value="Filter" style="margin-left:5px; margin-bottom: 5px;">
+                                    <a class="button black small" href="#">RESET FILTER</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </form>
+                    <div class="row">
+                        <div class="col-xl-8 h-100">
+                            <div mk-morris-js [options]="chartBarOptions" [data]="chartBarData" type="Bar" style="height: 320px;width:100%;"></div>
+                            <div class="text-center">
+                                <ul class="list-inline card-detail-list m-b-0">
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-circle mr-2"></i>Series A
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-circle mr-2"></i>Series B
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-circle mr-2"></i>Series C
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 mt-20 h-100 p-4" style="background-color:#E6E6FA; min-height:330px;">
+                            <div class="form-group row">
+                                <h3 class="pl-2">FILTERS</h3>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-3 col-form-label font-weight-bold">GROUP</label>
+                                <div class="col-sm-9">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>Me</option>
+                                        <option value="1">All</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-3 col-form-label font-weight-bold">TEAM</label>
+                                <div class="col-sm-9">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>Me</option>
+                                        <option value="1">All</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-3 col-form-label font-weight-bold">STAFF</label>
+                                <div class="col-sm-9">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>Me</option>
+                                        <option value="1">All</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-3 col-form-label font-weight-bold" >TYPE</label>
+                                <div class="col-sm-9">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option selected>Me</option>
+                                        <option value="1">All</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-12 mb-10">
+        <div class="card card-statistics h-100">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table center-aligned-table mb-0">
+                        <thead>
+                            <tr class="text-dark">
+                                <th>BOOKING DATE</th>
+                                <th>REF</th>
+                                <th>LEAD NAME</th>
+                                <th>TEAN</th>
+                                <th>GROUP</th>
+                                <th>PAX</th>
+                                <th>ATOL</th>
+                                <th>CAST PAID</th>
+                                <th>SUPPLIERS</th>
+                                <th>FEES</th>
+                                <th>EST MARGIN</th>
+                                <th>ACT MARGIN</th>
+                                <th>TO CLAIM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>17/08/2019</td>
+                                <td><a routerLink="/bookings/{{id}}">EST 0247</a></td>
+                                <td><a routerLink="/bookings/{{id}}">Joe Bloggs</a></td>
+                                <td>Elite Sports Tray</td>
+                                <td>Super Bow LIV</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>$292,088.00</td>
+                                <td>$257,099.00</td>
+                                <td>$100.00</td>
+                                <td></td>
+                                <td>$2,400.00</td>
+                                <td>$1,400.00</td>
+                            </tr>
+                            <tr>
+                                <td>17/08/2019</td>
+                                <td><a routerLink="/bookings/{{id}}">EST 0247</a></td>
+                                <td><a routerLink="/bookings/{{id}}">Joe Bloggs</a></td>
+                                <td>Elite Sports Tray</td>
+                                <td>Super Bow LIV</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>$292,088.00</td>
+                                <td>$257,099.00</td>
+                                <td>$100.00</td>
+                                <td></td>
+                                <td>$2,400.00</td>
+                                <td>$1,400.00</td>
+                            </tr>
+                            <tr>
+                                <td>17/08/2019</td>
+                                <td><a routerLink="/bookings/{{id}}">EST 0247</a></td>
+                                <td><a routerLink="/bookings/{{id}}">Joe Bloggs</a></td>
+                                <td>Elite Sports Tray</td>
+                                <td>Super Bow LIV</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>$292,088.00</td>
+                                <td>$257,099.00</td>
+                                <td>$100.00</td>
+                                <td></td>
+                                <td>$2,400.00</td>
+                                <td>$1,400.00</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="5">TOTAL BOOKINGS: 3</th>
+                                <th>6</th>
+                                <th>6</th>
+                                <th>$876,264.00</th>
+                                <th>$771,297.00</th>
+                                <th>$300.00</th>
+                                <th>0</th>
+                                <th>$7,200.00</th>
+                                <th>$4,200.00</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-7 mb-30">
+    </div>
+    <div class="col-xl-5 mb-30">
+        <div class="card card-statistics h-100">
+            <div class="card-body" style="background-color:#E6E6FA">
+                COMBINED EST AND ACTUAL MARGIN FOR PERIOD :&nbsp;&nbsp; $785,0.00
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-12 float-right text-right mb-30">
+        <a class="button button-border black icon large" href="#">DOWNLOAD RESULT .XLSX</a>
+    </div>
+</div>

@@ -1,0 +1,720 @@
+<pre>stdClass Object
+(
+    [BranchId] => 31901
+    [OwningTeamId] => 368601
+    [BranchName] => Putney Central.
+    [OwningTeamName] => Crhis James
+    [Roles] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [GroupId] => 4186706
+                    [FinancialStatus] => stdClass Object
+                        (
+                            [Id] => 2011
+                            [Name] => Tied to Current Lender
+                            [SystemName] => TiedToCurrentLender
+                        )
+
+                    [Origin] => 
+                    [Grade] => 
+                    [OwningTeamId] => 36401
+                    [BranchId] => 31901
+                    [Name] => Looking to buy (£90000 - £300000)
+                    [TeamAccessType] => 
+                    [RoleType] => stdClass Object
+                        (
+                            [Id] => 2267
+                            [Name] => Searching for Sale
+                            [SystemName] => SearchingForSale
+                        )
+
+                    [RoleStatus] => stdClass Object
+                        (
+                            [Id] => 2263
+                            [Name] => Active
+                            [SystemName] => Active
+                        )
+
+                    [CustomFields] => 
+                    [CreatedDate] => 2017-02-08T12:59:27Z
+                    [CreatedBy] => stdClass Object
+                        (
+                            [Initials] => 
+                            [ContactName] => Miss Freya Davies
+                            [Gender] => stdClass Object
+                                (
+                                    [Id] => 2016
+                                    [Name] => Female
+                                    [SystemName] => Female
+                                )
+
+                            [Title] => Miss
+                            [FirstName] => Freya
+                            [LastName] => Davies
+                            [PrimaryTelephone] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1895
+                                            [Name] => Mobile
+                                            [SystemName] => Mobile
+                                        )
+
+                                    [Value] => 07769894686
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 874407
+                                )
+
+                            [PrimaryEmail] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1892
+                                            [Name] => Email
+                                            [SystemName] => Email
+                                        )
+
+                                    [Value] => freya@dezrez.com
+                                    [Notes] => 
+                                    [ContactOrder] => 1
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 110901
+                                )
+
+                            [JobTitle] => 
+                            [Id] => 45601
+                        )
+
+                    [Id] => 7564010
+                )
+
+            [1] => stdClass Object
+                (
+                    [GroupId] => 4186706
+                    [FinancialStatus] => 
+                    [Origin] => stdClass Object
+                        (
+                            [Id] => 2133
+                            [Name] => Not Specified
+                            [SystemName] => NotSpecified
+                        )
+
+                    [Grade] => 
+                    [OwningTeamId] => 0
+                    [BranchId] => 31901
+                    [Name] => 
+                    [TeamAccessType] => 
+                    [RoleType] => stdClass Object
+                        (
+                            [Id] => 2272
+                            [Name] => Interest
+                            [SystemName] => Interest
+                        )
+
+                    [RoleStatus] => stdClass Object
+                        (
+                            [Id] => 2263
+                            [Name] => Active
+                            [SystemName] => Active
+                        )
+
+                    [CustomFields] => 
+                    [CreatedDate] => 2017-02-08T12:56:41Z
+                    [CreatedBy] => stdClass Object
+                        (
+                            [Initials] => 
+                            [ContactName] => Miss Freya Davies
+                            [Gender] => stdClass Object
+                                (
+                                    [Id] => 2016
+                                    [Name] => Female
+                                    [SystemName] => Female
+                                )
+
+                            [Title] => Miss
+                            [FirstName] => Freya
+                            [LastName] => Davies
+                            [PrimaryTelephone] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1895
+                                            [Name] => Mobile
+                                            [SystemName] => Mobile
+                                        )
+
+                                    [Value] => 07769894686
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 874407
+                                )
+
+                            [PrimaryEmail] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1892
+                                            [Name] => Email
+                                            [SystemName] => Email
+                                        )
+
+                                    [Value] => freya@dezrez.com
+                                    [Notes] => 
+                                    [ContactOrder] => 1
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 110901
+                                )
+
+                            [JobTitle] => 
+                            [Id] => 45601
+                        )
+
+                    [Id] => 7592109
+                )
+
+        )
+
+    [Address] => stdClass Object
+        (
+            [Location] => stdClass Object
+                (
+                    [CenterPoint] => stdClass Object
+                        (
+                            [Latitude] => 51.461728444
+                            [Longitude] => -0.239971285
+                            [Altitude] => 0
+                            [Order] => 0
+                            [Id] => 2353101
+                        )
+
+                    [Extent] => Array
+                        (
+                        )
+
+                    [ViewPoints] => Array
+                        (
+                        )
+
+                    [Id] => 2074201
+                )
+
+            [AddressSource] => stdClass Object
+                (
+                    [Id] => 1851
+                    [Name] => National
+                    [SystemName] => National
+                )
+
+            [SourceId] => 23990500
+            [OrganizationName] => 
+            [Number] => 2
+            [BuildingName] => 
+            [Street] => Swinburne Road
+            [Town] => London
+            [Locality] => 
+            [County] => 
+            [Postcode] => SW15 5EB
+            [CreatedDate] => 2017-02-08T12:56:41Z
+            [CreatedBy] => stdClass Object
+                (
+                    [Initials] => 
+                    [ContactName] => Miss Freya Davies
+                    [Gender] => stdClass Object
+                        (
+                            [Id] => 2016
+                            [Name] => Female
+                            [SystemName] => Female
+                        )
+
+                    [Title] => Miss
+                    [FirstName] => Freya
+                    [LastName] => Davies
+                    [PrimaryTelephone] => stdClass Object
+                        (
+                            [Type] => stdClass Object
+                                (
+                                    [Id] => 1895
+                                    [Name] => Mobile
+                                    [SystemName] => Mobile
+                                )
+
+                            [Value] => 07769894686
+                            [Notes] => 
+                            [ContactOrder] => 0
+                            [AllowContact] => 1
+                            [MarketingContactStatus] => stdClass Object
+                                (
+                                    [Id] => 952202
+                                    [Name] => Unsubscribed Marketing
+                                    [SystemName] => UnsubscribedMarketing
+                                )
+
+                            [Name] => 
+                            [Id] => 874407
+                        )
+
+                    [PrimaryEmail] => stdClass Object
+                        (
+                            [Type] => stdClass Object
+                                (
+                                    [Id] => 1892
+                                    [Name] => Email
+                                    [SystemName] => Email
+                                )
+
+                            [Value] => freya@dezrez.com
+                            [Notes] => 
+                            [ContactOrder] => 1
+                            [AllowContact] => 1
+                            [MarketingContactStatus] => stdClass Object
+                                (
+                                    [Id] => 952202
+                                    [Name] => Unsubscribed Marketing
+                                    [SystemName] => UnsubscribedMarketing
+                                )
+
+                            [Name] => 
+                            [Id] => 110901
+                        )
+
+                    [JobTitle] => 
+                    [Id] => 45601
+                )
+
+            [Id] => 3023707
+        )
+
+    [RoleCount] => 0
+    [Origin] => stdClass Object
+        (
+            [Id] => 2146
+            [Name] => Rightmove.co.uk
+            [SystemName] => Rightmove
+        )
+
+    [Grade] => stdClass Object
+        (
+            [Id] => 2023
+            [Name] => Five
+            [SystemName] => Five
+        )
+
+    [TeamAccessType] => 
+    [Name] => Alex Summers
+    [Description] => FTB
+    [GroupType] => stdClass Object
+        (
+            [Id] => 2066
+            [Name] => Individual
+            [SystemName] => Individual
+        )
+
+    [GroupIcon] => 
+    [SystemStatus] => stdClass Object
+        (
+            [Id] => 1801
+            [Name] => Active
+            [SystemName] => Active
+        )
+
+    [GroupBackgroundImageUrl] => 
+    [Notes] => 
+    [Members] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [Person] => stdClass Object
+                        (
+                            [Gender] => stdClass Object
+                                (
+                                    [Id] => 2016
+                                    [Name] => Female
+                                    [SystemName] => Female
+                                )
+
+                            [Title] => Miss
+                            [FirstName] => Alex
+                            [LastName] => Summers
+                            [ContactName] => Miss Alex Summers
+                            [PrimaryTelephone] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1895
+                                            [Name] => Mobile
+                                            [SystemName] => Mobile
+                                        )
+
+                                    [Value] => 07213123456
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 9421714
+                                )
+
+                            [PrimaryEmail] => stdClass Object
+                                (
+                                    [Type] => stdClass Object
+                                        (
+                                            [Id] => 1892
+                                            [Name] => Email
+                                            [SystemName] => Email
+                                        )
+
+                                    [Value] => alexsummers@mail.com
+                                    [Notes] => 
+                                    [ContactOrder] => 0
+                                    [AllowContact] => 1
+                                    [MarketingContactStatus] => stdClass Object
+                                        (
+                                            [Id] => 952202
+                                            [Name] => Unsubscribed Marketing
+                                            [SystemName] => UnsubscribedMarketing
+                                        )
+
+                                    [Name] => 
+                                    [Id] => 9421713
+                                )
+
+                            [Addresses] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [AddressType] => 
+                                            [ContactOrder] => 0
+                                            [Location] => stdClass Object
+                                                (
+                                                    [CenterPoint] => stdClass Object
+                                                        (
+                                                            [Latitude] => 51.461728444
+                                                            [Longitude] => -0.239971285
+                                                            [Altitude] => 0
+                                                            [Order] => 0
+                                                            [Id] => 2353101
+                                                        )
+
+                                                    [Extent] => Array
+                                                        (
+                                                        )
+
+                                                    [ViewPoints] => Array
+                                                        (
+                                                        )
+
+                                                    [Id] => 2074201
+                                                )
+
+                                            [AddressSource] => stdClass Object
+                                                (
+                                                    [Id] => 1851
+                                                    [Name] => National
+                                                    [SystemName] => National
+                                                )
+
+                                            [SourceId] => 23990500
+                                            [OrganizationName] => 
+                                            [Number] => 2
+                                            [BuildingName] => 
+                                            [Street] => Swinburne Road
+                                            [Town] => London
+                                            [Locality] => 
+                                            [County] => 
+                                            [Postcode] => SW15 5EB
+                                            [CreatedDate] => 2017-02-08T12:56:41Z
+                                            [CreatedBy] => stdClass Object
+                                                (
+                                                    [Initials] => 
+                                                    [ContactName] => Miss Freya Davies
+                                                    [Gender] => stdClass Object
+                                                        (
+                                                            [Id] => 2016
+                                                            [Name] => Female
+                                                            [SystemName] => Female
+                                                        )
+
+                                                    [Title] => Miss
+                                                    [FirstName] => Freya
+                                                    [LastName] => Davies
+                                                    [PrimaryTelephone] => stdClass Object
+                                                        (
+                                                            [Type] => stdClass Object
+                                                                (
+                                                                    [Id] => 1895
+                                                                    [Name] => Mobile
+                                                                    [SystemName] => Mobile
+                                                                )
+
+                                                            [Value] => 07769894686
+                                                            [Notes] => 
+                                                            [ContactOrder] => 0
+                                                            [AllowContact] => 1
+                                                            [MarketingContactStatus] => stdClass Object
+                                                                (
+                                                                    [Id] => 952202
+                                                                    [Name] => Unsubscribed Marketing
+                                                                    [SystemName] => UnsubscribedMarketing
+                                                                )
+
+                                                            [Name] => 
+                                                            [Id] => 874407
+                                                        )
+
+                                                    [PrimaryEmail] => stdClass Object
+                                                        (
+                                                            [Type] => stdClass Object
+                                                                (
+                                                                    [Id] => 1892
+                                                                    [Name] => Email
+                                                                    [SystemName] => Email
+                                                                )
+
+                                                            [Value] => freya@dezrez.com
+                                                            [Notes] => 
+                                                            [ContactOrder] => 1
+                                                            [AllowContact] => 1
+                                                            [MarketingContactStatus] => stdClass Object
+                                                                (
+                                                                    [Id] => 952202
+                                                                    [Name] => Unsubscribed Marketing
+                                                                    [SystemName] => UnsubscribedMarketing
+                                                                )
+
+                                                            [Name] => 
+                                                            [Id] => 110901
+                                                        )
+
+                                                    [JobTitle] => 
+                                                    [Id] => 45601
+                                                )
+
+                                            [Id] => 3023707
+                                        )
+
+                                )
+
+                            [ContactItems] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [Type] => stdClass Object
+                                                (
+                                                    [Id] => 1892
+                                                    [Name] => Email
+                                                    [SystemName] => Email
+                                                )
+
+                                            [Value] => alexsummers@mail.com
+                                            [Notes] => 
+                                            [ContactOrder] => 0
+                                            [AllowContact] => 1
+                                            [MarketingContactStatus] => stdClass Object
+                                                (
+                                                    [Id] => 952202
+                                                    [Name] => Unsubscribed Marketing
+                                                    [SystemName] => UnsubscribedMarketing
+                                                )
+
+                                            [Name] => 
+                                            [Id] => 9421713
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [Type] => stdClass Object
+                                                (
+                                                    [Id] => 1895
+                                                    [Name] => Mobile
+                                                    [SystemName] => Mobile
+                                                )
+
+                                            [Value] => 07213123456
+                                            [Notes] => 
+                                            [ContactOrder] => 0
+                                            [AllowContact] => 1
+                                            [MarketingContactStatus] => stdClass Object
+                                                (
+                                                    [Id] => 952202
+                                                    [Name] => Unsubscribed Marketing
+                                                    [SystemName] => UnsubscribedMarketing
+                                                )
+
+                                            [Name] => 
+                                            [Id] => 9421714
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [Type] => stdClass Object
+                                                (
+                                                    [Id] => 1893
+                                                    [Name] => Telephone
+                                                    [SystemName] => Telephone
+                                                )
+
+                                            [Value] => 0203456789
+                                            [Notes] => 
+                                            [ContactOrder] => 0
+                                            [AllowContact] => 1
+                                            [MarketingContactStatus] => stdClass Object
+                                                (
+                                                    [Id] => 952202
+                                                    [Name] => Unsubscribed Marketing
+                                                    [SystemName] => UnsubscribedMarketing
+                                                )
+
+                                            [Name] => 
+                                            [Id] => 9421715
+                                        )
+
+                                )
+
+                            [MarketingPreferences] => Array
+                                (
+                                )
+
+                            [Id] => 4764107
+                        )
+
+                    [RelationshipType] => stdClass Object
+                        (
+                            [Id] => 2256
+                            [Name] => Primary Group Member
+                            [SystemName] => PrimaryGroupMember
+                        )
+
+                    [SystemStatus] => stdClass Object
+                        (
+                            [Id] => 1801
+                            [Name] => Active
+                            [SystemName] => Active
+                        )
+
+                    [Order] => 0
+                    [Id] => 4764107
+                )
+
+        )
+
+    [PreferredCompanies] => Array
+        (
+        )
+
+    [AdditionalQuestions] => 
+    [Separated] => 
+    [CustomFields] => Array
+        (
+        )
+
+    [CreatedDate] => 2017-02-08T12:56:41Z
+    [CreatedBy] => stdClass Object
+        (
+            [Initials] => 
+            [ContactName] => Miss Freya Davies
+            [Gender] => stdClass Object
+                (
+                    [Id] => 2016
+                    [Name] => Female
+                    [SystemName] => Female
+                )
+
+            [Title] => Miss
+            [FirstName] => Freya
+            [LastName] => Davies
+            [PrimaryTelephone] => stdClass Object
+                (
+                    [Type] => stdClass Object
+                        (
+                            [Id] => 1895
+                            [Name] => Mobile
+                            [SystemName] => Mobile
+                        )
+
+                    [Value] => 07769894686
+                    [Notes] => 
+                    [ContactOrder] => 0
+                    [AllowContact] => 1
+                    [MarketingContactStatus] => stdClass Object
+                        (
+                            [Id] => 952202
+                            [Name] => Unsubscribed Marketing
+                            [SystemName] => UnsubscribedMarketing
+                        )
+
+                    [Name] => 
+                    [Id] => 874407
+                )
+
+            [PrimaryEmail] => stdClass Object
+                (
+                    [Type] => stdClass Object
+                        (
+                            [Id] => 1892
+                            [Name] => Email
+                            [SystemName] => Email
+                        )
+
+                    [Value] => freya@dezrez.com
+                    [Notes] => 
+                    [ContactOrder] => 1
+                    [AllowContact] => 1
+                    [MarketingContactStatus] => stdClass Object
+                        (
+                            [Id] => 952202
+                            [Name] => Unsubscribed Marketing
+                            [SystemName] => UnsubscribedMarketing
+                        )
+
+                    [Name] => 
+                    [Id] => 110901
+                )
+
+            [JobTitle] => 
+            [Id] => 45601
+        )
+
+    [Id] => 4186706
+)
